@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+      <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4">Цветков Иван Романович</h1>
+        <p class="lead">Я политолог изучающий эффективность местного самоуправления в России, также являюсь Python-разработчиком. На сегодняшний день являюсь руководителем event-отдела региональной команды конкурса Твой Ход Тульской области.</p>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Научная деятельность</h4>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Автором написано 6  научных статей.</li>
+                <li>Статьи на тему</li>
+                <li>местного самоуправления,</li>
+                <li>геополитику</li>
+              </ul>
+              <a href="https://elibrary.ru/item.asp?id=49876288"><button type="button" class="btn btn-lg btn-block btn-outline-primary">Перейти на eLibrary</button></a>
+            </div>
+          </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Портфолио</h4>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Мое образвание,</li>
+                <li>опыт работы,</li>
+                <li>навыки, сертификаты</li>
+                 <li>и благодарности</li>
+                <li></li>
+              </ul>
+              <a href="/about"><button type="button" class="btn btn-lg btn-block btn-primary">Перейти к портфолио</button></a>
+            </div>
+          </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Контакты</h4>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>email: ivan_tsv@vk.com</li>
+                <li>номер телефона:</li>
+                <li>+7 (916) 902-24-56</li>
+                <li>Другие способы связи</li>
+              </ul>
+              <a href="https://vk.com/ivan_tsv"><button type="button" class="btn btn-lg btn-block btn-primary">ВКонтакте</button></a>
+              <a href="https://t.me/ivan_tsv"><button type="button" class="btn btn-lg btn-block btn-info">Telegram</button></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}

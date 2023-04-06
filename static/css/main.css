@@ -1,0 +1,13 @@
+
+aside h3 {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+
+p {
+    font-size: 20px;
+}
